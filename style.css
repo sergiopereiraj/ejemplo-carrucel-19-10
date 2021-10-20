@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Roboto:wght@100;400;700&display=swap');
+
+body {
+    background-color: rgba(0, 0, 0, 0.199);
+    font-family: "Roboto";
+}
+
+.navbar-brand {
+    font-family: "Anton";
+    font-size: 2em;
+    color: rgb(238, 255, 0) !important;
+}
+
+.slide1 {
+    background-image: url("https://picsum.photos/900/800?random=4");
+    background-position: center center;
+    background-size: cover;
+    height: 650px;
+}
+
+.slide2 {
+    background-image: url("https://picsum.photos/900/800?random=5");
+    background-position: center center;
+    background-size: cover;
+    height: 650px;
+}
+
+.slide3 {
+    background-image: url("https://picsum.photos/900/800?random=8");
+    background-position: center center;
+    background-size: cover;
+    height: 650px;
+}
+
+.titulo {
+    font-family: "Roboto";
+    color: rgb(212, 250, 0);
+    font-size: 3em;
+}
+
+.mensaje {
+    font-family: "Roboto";
+    color: white;
+    font-size: 1em;
+}
+
+.carousel-indicators div {
+    border: 1px green solid !important;
+    background-color: transparent !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100% !important;
+}
+
+.carousel-indicators div.active {
+    background-color: green !important;
+}
